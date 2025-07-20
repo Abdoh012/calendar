@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(45deg, #1d0000, #20205b);
+  overflow: hidden;
+}
+
+.calendar {
+  display: flex;
+}
+
+.calendar > div {
+  flex-direction: column;
+  padding: 50px 30px;
+}
+
+.day {
+  background-color: white;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.day-number {
+  font-size: 80px;
+  font-weight: 300;
+  line-height: 90px;
+}
+
+.day-name {
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.month-year {
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.month {
+  text-transform: capitalize;
+}
